@@ -1,0 +1,644 @@
+.sec1 {
+  background-image: url(../images/header-no-sep.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+.sec1 img {
+  width: 100%;
+}
+.navbar ul {
+  margin: auto;
+}
+.navbar ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.navbar .navbar-nav li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-toggler {
+  margin-left: 151px;
+  margin-top: -15px;
+}
+.fa-solid.fa-bars {
+  color: #999999;
+  font-size: 25px;
+}
+.main-btn {
+  background-color: #ff9600;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: transparent;
+  border-radius: 5px;
+}
+.main-btn2 {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: transparent;
+  border-radius: 5px;
+}
+.sec1 .text {
+  padding-top: 9rem;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.sec1 h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 70px;
+}
+.frist {
+  width: 109%;
+}
+@media only screen and (max-width: 600px) {
+  .sec1 h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+  }
+  .main-btn {
+    width: 100%;
+    background-color: #ff9600;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: transparent;
+    border-radius: 5px;
+  }
+  .main-btn2 {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: transparent;
+    border-radius: 5px;
+  }
+}
+
+/* <!-- ---------------------------------- end section 1 ---------------------------------- --> */
+.sec2 {
+  width: 100%;
+  overflow: hidden;
+}
+.sec2 .text h3 {
+  color: #58beff;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.sec2 .text h2 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.sec2 .line {
+  background-color: #777;
+  width: 20%;
+  height: 2px;
+}
+.text p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 18px;
+  margin: 2rem 0;
+}
+.text i {
+  margin-right: 1rem;
+}
+.img1 {
+  background-image: url(../images/about-extreme-sports-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 270px;
+  border-radius: 10px;
+}
+.img2 {
+  background-image: url(../images/about-extreme-sports-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 260px;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.boxs > div {
+  width: 23%;
+  background-color: aqua;
+  background-image: url(../images/stat-bg.webp);
+  background-position: right;
+  background-size: cover;
+  text-align: center;
+  padding-top: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.boxs h2 {
+  font-weight: bold;
+  font-size: 80px;
+}
+.boxs p {
+  font-size: 18px;
+}
+.boxs .box1 {
+  background-color: #fdf0de;
+}
+.boxs .box2 {
+  background-color: #e1ffe4;
+}
+.boxs .box3 {
+  background-color: #e9e9fd;
+}
+.boxs .box4 {
+  background-color: #fde4ec;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec2 .row {
+    display: block;
+    width: 100%;
+  }
+  .sec2 h3 {
+    font-size: 35px;
+  }
+  .sec2 h2 {
+    font-size: 40px;
+  }
+  .img1 {
+    width: 45%;
+    height: 413px;
+    /* width: 279px; */
+  }
+  .img2 {
+    width: 45%;
+    height: 315px;
+    /*width: 300px; */
+  }
+  .boxs > div {
+    width: 48%;
+  }
+}
+
+/* <!-- ---------------------------------- end section 2 ---------------------------------- --> */
+.sec3 {
+  background-color: #0c3543;
+  color: white;
+}
+.sec3 h3 {
+  color: #ff9600;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+.sec3 h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.sec3 p {
+  line-height: 1.7;
+  font-size: 18px;
+  color: white;
+  margin-top: 0;
+}
+.sec3 hr {
+  margin: 3rem 0;
+  color: inherit;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: 1;
+  width: 17%;
+  border-top: 2px solid;
+}
+.sec3 .activities {
+  text-align: center;
+}
+.sec3 .activities h2 {
+  font-size: 35px;
+  padding: 2rem 0 0 0;
+}
+.sec3 .activities p {
+  padding: 0 0 2rem 0;
+}
+.activities .image {
+  overflow: hidden;
+  width: 31%;
+  background-color: #0f4152;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.activities .image img {
+  width: 100%;
+}
+.sec3 .word {
+  overflow: hidden;
+  padding: 5rem;
+  background-image: url(../images/stat-bg.webp);
+  background-position: center;
+  background-size: auto;
+  text-align: center;
+}
+.sec3 .word h2 {
+  font-size: 120px;
+  font-family: "Dancing Script", cursive;
+}
+@media only screen and (max-width: 600px) {
+  .sec3 .text {
+    display: block;
+  }
+  .activities {
+    display: block;
+  }
+  .activities .image {
+    width: 100%;
+  }
+  .sec3 .word h2 {
+    font-size: 70px;
+  }
+}
+
+/* <!-- ---------------------------------- end section 3 ---------------------------------- --> */
+
+.sec4 {
+  background-color: #ff9600;
+  height: 150vh;
+}
+
+.sec4 .text {
+  text-align: center;
+  padding: 2rem;
+}
+.sec4 .text h2 {
+  font-size: 54px;
+  color: white;
+  font-weight: bold;
+}
+.sec4 .text p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sec4 .buttons .btn {
+  margin: 1rem;
+}
+.sec4 .buttons .btn.one {
+  background-color: #0c3543;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: transparent;
+  border-radius: 5px;
+}
+.sec4 .buttons .btn.two {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.sec4 .buttons .btn2 .fa-solid.fa-play {
+  color: white;
+}
+
+.sec4 .item {
+  position: relative;
+  width: 90%;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 2rem auto;
+}
+.sec4 .item.one::before {
+  content: "";
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  width: inherit;
+  height: 100%;
+  background-image: url(../images/extreme-sports-videos.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+}
+.sec4 .item.two::before {
+  content: "";
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  width: inherit;
+  height: 100%;
+  background-image: url(../images/extreme-sports-activities.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+}
+.sec4 .item.three::before {
+  content: "";
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  width: inherit;
+  height: 100%;
+  background-image: url(../images/extreme-sports-instructors.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(60%);
+  -webkit-filter: brightness(30%);
+}
+.sec4 .item .text {
+  position: relative;
+  width: inherit;
+  color: white;
+  text-align: left;
+  padding: 10rem 0 0 2rem;
+}
+.sec4 .item .text .last {
+  color: #c4c3c3;
+  font-weight: normal;
+  font-size: 20px;
+}
+.sec4 .item .text .first {
+  font-weight: normal;
+}
+@media only screen and (max-width: 600px) {
+  .sec4 {
+    height: 2122px;
+  }
+  .sec4 .text h2 {
+    font-size: 40px;
+  }
+  .sec4 .text {
+    padding: 0;
+  }
+  .sec4 .buttons .btn {
+    width: 100%;
+  }
+  .activites-reports {
+    display: block !important;
+  }
+}
+/* <!-- ---------------------------------- end section 4 ---------------------------------- --> */
+/* <!-- ---------------------------------- start section 5 ---------------------------------- --> */
+.sec5 .text {
+  margin-top: 20rem;
+  text-align: center;
+}
+.sec5 .text hr {
+  width: 15%;
+  margin: 2rem auto;
+  border-top: 3px solid black;
+}
+.sec5 .text h3 {
+  font-size: 40px;
+  color: #41b2f8;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.sec5 .text h2 {
+  font-size: 60px;
+  color: #222222;
+  font-weight: bold;
+}
+.sec5 .items .icon {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(142, 233, 147);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.sec5 .items h2 {
+  font-size: 25px;
+}
+.sec5 .item p {
+  font-size: 18px;
+}
+.sec5 .items .item i {
+  font-size: 70px;
+  color: rgb(36, 97, 39);
+}
+@media only screen and (max-width: 600px) {
+  .sec5 .text h2 {
+    font-size: 45px;
+  }
+  .sec5 .text h3 {
+    font-size: 35px;
+  }
+  .sec5 .text hr {
+    width: 50% !important;
+  }
+}
+/* -------------------------------- section 6 --------------------------------- */
+.sec6 {
+  background-color: #f7f7f7;
+}
+.sec6 h3 {
+  color: #ff9600;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+.sec6 h2 {
+  font-size: 63px;
+  font-weight: bold;
+}
+.sec6 p {
+  line-height: 1.7;
+  font-size: 18px;
+  color: #222222;
+  margin-top: 0;
+}
+.sec6 hr {
+  margin: 3rem 0;
+  color: inherit;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: 1;
+  width: 17%;
+  border-top: 2px solid;
+}
+.sec6 .News {
+  text-align: center;
+}
+.sec6 .News h2 {
+  font-size: 35px;
+  padding: 2rem 0 0 0;
+}
+.sec6 .News p {
+  padding: 0 0 2rem 0;
+}
+.News .image {
+  overflow: hidden;
+  width: 31%;
+  background-color: #ffffff;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.News .image img {
+  width: 100%;
+}
+.sec6 .word {
+  overflow: hidden;
+  padding: 5rem;
+  background-image: url(../images/stat-bg.webp);
+  background-position: center;
+  background-size: auto;
+  text-align: center;
+}
+.sec6 .word h2 {
+  font-size: 120px;
+  font-family: "Dancing Script", cursive;
+}
+@media only screen and (max-width: 600px) {
+  .sec6 .text {
+    display: block;
+  }
+  .News {
+    display: block;
+  }
+  .News .image {
+    width: 100%;
+  }
+  .sec6 .word h2 {
+    font-size: 70px;
+  }
+}
+/* <!-- ---------------------------------- end section 6 ---------------------------------- --> */
+.sec7 {
+  opacity: 50%;
+  padding: 7rem;
+}
+.sec7 .sponsers-logos img {
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  .sec7 .sponsers-logos {
+    display: block !important;
+  }
+  .sec7 .sponsers-logos img {
+    margin: 3rem auto;
+    width: 90%;
+  }
+}
+/* <!-- ---------------------------------- footer ---------------------------------- --> */
+footer {
+  background-color: #0c3543;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+footer .img {
+  height: auto;
+  background-image: url(../images/footer-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .logo img {
+  width: 40%;
+}
+footer .main-btn {
+  width: 30%;
+  height: 65px;
+  padding: 0.5rem 1rem !important;
+}
+footer p {
+  display: block;
+  color: white;
+  line-height: 2;
+  font-size: 16px;
+  width: 100%;
+}
+footer .line {
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+  opacity: 70%;
+}
+footer h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+footer h2::before {
+  content: "";
+  position: absolute;
+  bottom: 4rem;
+  left: 1rem;
+  background-color: white;
+  width: 50%;
+  height: 3px;
+}
+footer .copy {
+  margin-top: 2rem;
+  font-size: 16px;
+  opacity: 80%;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  footer .img {
+    height: 200px;
+  }
+  footer .main-btn {
+    width: 100%;
+  }
+  footer .logo img {
+    width: 100%;
+  }
+  footer p {
+    margin-top: 5rem;
+    color: white;
+    line-height: 2;
+    font-size: 16px;
+  }
+  footer h2::before {
+    content: "";
+    position: absolute;
+    bottom: 11rem;
+    left: 1rem;
+    background-color: white;
+    width: 50%;
+    height: 3px;
+  }
+  footer .content {
+    display: block;
+  }
+}
